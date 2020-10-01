@@ -1,0 +1,24 @@
+{
+  "name": "openApi_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openapi-contrib/json-schema-to-openapi-schema": "^1.2.0",
+    "json-schema-to-openapi-schema": "^0.4.0",
+    "json2yaml": "^1.1.0",
+    "parcel-bundler": "^1.12.4",
+    "to-json-schema": "^0.2.5"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0"
+  }
+}
